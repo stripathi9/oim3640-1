@@ -1,6 +1,7 @@
 """
 Ex. 2.1
 """
+# Ex. 2.1
 minutes = 42
 seconds = 42
 
