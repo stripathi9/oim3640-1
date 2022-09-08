@@ -43,7 +43,7 @@ print(f"The percentage of the increase is {perc*100:4.1f}%.")
 # or
 print(f"The percentage of the increase is {perc:05.1%}.")
 
-rounded_perc = round(perc * 100, 2)
+rounded_perc = round(perc * 100, 1)
 print(rounded_perc)
 
 print()
