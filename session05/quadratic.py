@@ -15,7 +15,31 @@ def quadratic(a, b, c):
     return x_1, x_2
 
 
-print(quadratic(1, 2, 1))
+# print(quadratic(1, 2, 1))
+
+# aa = float(input("Enter a number: >>> "))
+# bb = float(input("Enter a number: >>> "))
+# cc = float(input("Enter a number: >>> "))
+
+# print(quadratic(aa, bb, cc))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 def quadratic(a, b, c):
@@ -28,7 +52,7 @@ def quadratic(a, b, c):
 
     Return None if there is no real number solution"""
     if a == 0 and b == 0:
-        print('Hey, this is not a function!')
+        print('Hey, this is not a quadratic equation!')
         return None
     if a == 0:
         print('This is a linear function.')
@@ -44,6 +68,7 @@ def quadratic(a, b, c):
         # raise Exception('No real number solution.')
         print('No real number solution.')
         return None
+        raise ValueError('No real number solution!')
 
 
 def main():
