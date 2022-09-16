@@ -1,12 +1,15 @@
 def myabs(number):
-    """print the absolute value of the given number"""
+    """return the absolute value of the given number"""
     if number < 0:
         return -number
     else:
         return number
 
 
+# print(myabs(-42))
+
 def main():
+    # all the test code should be here
     print(myabs(-42))
 
 
