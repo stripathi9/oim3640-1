@@ -44,5 +44,18 @@ def f3(x):
     x = 10
     return x ** 2
 
-print(f3(2))
-print(f3(34252432423532))
+# print(f3(2))
+# print(f3(34252432423532))
+
+
+def f():
+    """A simple recursive function"""
+    print('Did you mean recursion?')
+
+    import time
+    time.sleep(1)
+
+    f()
+
+
+f()

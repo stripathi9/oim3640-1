@@ -17,7 +17,7 @@ def quadratic(a, b,c):
     pass
     # TODO: 
 
-help(quadratic)
+# help(quadratic)
 # quadratic(1, 2, 3)
 
 
@@ -34,4 +34,17 @@ def f2(x):
     x = 10
     return x * 2
 
-print(f2(43245324))
+# print(f2(43245324))
+
+
+def f():
+    """
+    A simple recursive function
+    """
+    print('Did you mean recursion?')
+    import time
+    time.sleep(1)
+    f()
+
+
+f() 
