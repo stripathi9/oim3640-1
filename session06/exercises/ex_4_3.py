@@ -4,6 +4,7 @@ from turtle_shape import arc, circle, move, polygon
 
 # 4.3
 
+
 def draw_yinyang(t):
     """Draws yinyang"""
     # large circle

@@ -5,6 +5,7 @@ import math
 
 # 4.1
 
+
 def draw_shape(t):
     """Draws the final shape"""
     # large circle

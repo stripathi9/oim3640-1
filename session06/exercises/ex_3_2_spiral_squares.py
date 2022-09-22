@@ -4,6 +4,7 @@ import turtle
 
 # 3.2
 
+
 def spiral_squares(t):
     """Draws a spiral of squares"""
     for i in range(60):

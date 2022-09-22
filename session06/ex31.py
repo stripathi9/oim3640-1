@@ -25,8 +25,6 @@ def spiral(t, n):
         t.right(5)
         length = length + 4
 
-  
-
 
 leo = turtle.Turtle()
 spiral(leo, 10)
