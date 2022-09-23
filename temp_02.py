@@ -58,4 +58,24 @@ def f():
     f()
 
 
-f()
+# f()
+
+
+def f(a, b=100):
+    return a ** 2 + b
+
+# print(f(2, 10))
+# print(f(b=10, a=2)) # keyword arguments
+# print(f(2)) 
+
+bmi = 35
+if bmi <= 18.5:
+    print("Underweight")
+else:
+    if bmi > 18.5 and bmi <= 24.9:
+        print("Normal Weight")
+    else:
+        if bmi > 24.9 and bmi <= 29.9:
+            print("Overweight")
+        else:
+            print("Obesity")

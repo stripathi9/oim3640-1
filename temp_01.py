@@ -47,4 +47,19 @@ def f():
     f()
 
 
-f() 
+def f(a, b=100):
+    return a ** 2 + b
+
+# print(f(2, 10)) 
+# print(f(b=10, a=2))
+# print(f(2))
+
+def f(age):
+    if age >= 6:
+        print("teenager")
+    elif age >= 18:
+        print("adult")
+    else:
+        print("kid")
+
+f(5)
