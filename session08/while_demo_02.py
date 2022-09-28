@@ -1,5 +1,8 @@
 def countdown(n):
-    while n > 0:  # repeat the following step(s) until n > 0 is not True
+    # 1. repeat the following step(s) until n > 0 is not True
+    #    1.1 print n
+    #    1.2 decrement n
+    while n > 0:  
         print(n)
         n = n - 1
     print('Blastoff!')
