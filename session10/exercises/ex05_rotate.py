@@ -8,11 +8,11 @@ def rotate(word, n):
     for c in word:
         if c.isalpha():
             if c.islower():
-                m = (ord(c) - ord('a') + n) % 26
-                new_string += chr(ord('a') + m)
+                shift = (ord(c) - ord('a') + n) % 26
+                new_string += chr(ord('a') + shift)
             else:
-                m = (ord(c) - ord('A') + n) % 26
-                new_string += chr(ord('A') + m)
+                shift = (ord(c) - ord('A') + n) % 26
+                new_string += chr(ord('A') + shift)
         else:
             new_string += c
     return new_string
