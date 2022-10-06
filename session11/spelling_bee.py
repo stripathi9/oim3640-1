@@ -1,6 +1,6 @@
 # https://www.nytimes.com/puzzles/spelling-bee
 
-from word_sol import uses_only
+from word_sol import uses_only, uses_all
 
 # def uses_only(word, available):
 #     """
@@ -29,21 +29,12 @@ def spell_bee(required, available):
     f = open('data/words.txt')
     for line in f:
         word = line.strip()
+        if len(word) >= 4 and uses_only(word, available) and uses_all(word, required):
+            print(word)
 
-        if (
-            len(word) >= 4
-            and uses_only(word, available)
-            and required in word
-        ):
-            # print(word)
-
-            if len(set(word)) == len(available):
-                print(f' We found a pangram: {word}')
-            else:
-                print(word)
 
 def main():
-    spell_bee(required='l', available='lygifvn')
+    spell_bee(required='m', available='arolpnm')
 
 
 if __name__ == "__main__":
