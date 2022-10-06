@@ -68,8 +68,8 @@ def find_words_no_e():
     return num_words_no_e / num_of_words
 
 
-perc_no_e = find_words_no_e()
-print(f'The percentage of the words with no "e" is {perc_no_e*100:.2f}%.')
+# perc_no_e = find_words_no_e()
+# print(f'The percentage of the words with no "e" is {perc_no_e*100:.2f}%.')
 
 
 def avoids(word, forbidden):
@@ -103,8 +103,8 @@ def find_words_no_vowels():
     return num_words_no_vowel / num_of_words
 
 
-perc_no_vowel = find_words_no_vowels()
-print(f'The percentage of the words without vowel letters is {perc_no_vowel*100:.2f}%.')
+# perc_no_vowel = find_words_no_vowels()
+# print(f'The percentage of the words without vowel letters is {perc_no_vowel*100:.2f}%.')
 
 
 def uses_only(word, available):
@@ -245,3 +245,11 @@ def is_abecedarian_using_while(word):
 
 
 # print(is_abecedarian_using_while('abcdef'))
+
+
+def main():
+    find_long_words()
+
+
+if __name__ == "__main__":
+    main()
