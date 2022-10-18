@@ -1,5 +1,5 @@
 def histogram(word_list):
-    """convert a word list to a dictionary counting words"""
+    """convert a word list to a dictionary mapping word to frequency"""
     d = {}
     for word in word_list:
         d[word] = d.get(word, 0) + 1
@@ -8,8 +8,8 @@ def histogram(word_list):
 
 def print_hist(h):
     """print items in a dictionary"""
-    for c in h:
-        print(c, h[c])
+    for k in sorted(h.keys()):
+        print(k, h[k])
 
 
 def print_lyrics_hist():
