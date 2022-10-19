@@ -16,7 +16,7 @@ def get_bad_words():
 
 
 def has_covid(word):
-    """return True if the word contains at least 3 letters from covid"""
+    """return True if the word contains at least 3 distinct letters from 'covid' """
     
 
 
