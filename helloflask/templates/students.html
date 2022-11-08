@@ -8,21 +8,10 @@
   </head>
   <body>
     <h1>Enrollments</h1>
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Course</th>
-        </tr>
-      </thead>
-      <tbody>
+    <div>
         {% for name in students %}
-        <tr>
-          <td>{{ name }}</td>
-          <td>{{ students[name] }}</td>
-        </tr>
+        <p>{{ name }}: {{ students[name] }}</p>
         {% endfor %}
-      </tbody>
-    </table>
+    </div>
   </body>
 </html>
