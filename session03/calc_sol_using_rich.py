@@ -14,7 +14,7 @@ console.print(f"The volume of a sphere with radius 5 is {v:.2f}.\n", style='bold
 
 # exercise 2.2
 book_count = 60
-price = 24.95
+price = 24.95   
 discount = 0.4
 cost = price * (1 - discount) * book_count
 shipping_cost_first = 3
